@@ -1,2 +1,3 @@
-console.log("Welcome to the main module")
+import { movieListGenerator } from './movieHtmlList.js'
 
+movieListGenerator();

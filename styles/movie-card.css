@@ -1,0 +1,35 @@
+.movie-card {
+    margin: 0.5em;
+    width: 20vw;
+}
+
+.movie-image {
+    width: 20vw;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* .image {
+    width: 20vw;
+} */
+
+.movie-rank {
+    width: 5vw;
+    height: 5vh;
+    background-color: lightgrey;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.movie-rank p, h5 {
+    padding: 0;
+    margin: 0;
+}
